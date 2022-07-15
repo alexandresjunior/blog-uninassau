@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ArticleMiniature from "../artigo/ArticleMiniature";
+import ArticleMiniature from "../article/ArticleMiniature";
 import { searchArticles } from "../../service";
 import BlogPagination from "./BlogPagination";
 import BlogSize from "./BlogSize";
