@@ -3,6 +3,9 @@ package com.uninassau.blog;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author Alexandre de Souza Jr.
+ */
 @SpringBootApplication
 public class BlogApplication {
 
