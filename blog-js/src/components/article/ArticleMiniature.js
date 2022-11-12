@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { formatDate } from "../../helper/ArticleHelper";
 
+
 const ArticleMiniature = ({ article }) => {
   return (
     <>
@@ -14,6 +15,7 @@ const ArticleMiniature = ({ article }) => {
         <div className="card-body">
           <h5 className="card-title">{article.title}</h5>
           <p className="card-text">{article.text}</p>
+
           <Link className="btn btn-primary" to={`/article/${article.id}`}>
             Read full article
           </Link>
